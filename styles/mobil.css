@@ -1,0 +1,9 @@
+@media screen and (max-width: 425px) {
+    .header-navigation {
+      display: none;
+      display: flex;
+      justify-content: flex-start;
+      flex-grow: 0;
+      margin-left: 85px;
+    }
+}
