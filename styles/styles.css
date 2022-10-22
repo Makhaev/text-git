@@ -28,15 +28,6 @@ body *{
     box-sizing: border-box;
 }
 
-@media screen and (orientation:portrait) {
-  .container {
-    display: none;
-    display: flex;
-    justify-content: flex-start;
-    flex-grow: 0;
-    margin-left: 85px;
-  }
-}
 
 
 
@@ -511,6 +502,8 @@ color: #363636;
       margin: 0 auto;
       max-width: 1236px;
       height: 608px;
+      
+     
       
     }
     /* начало первой колонки */

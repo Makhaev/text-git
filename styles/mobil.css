@@ -1,9 +1,19 @@
-@media screen and (max-width: 425px) {
-    .header-navigation {
-      display: none;
-      display: flex;
-      justify-content: flex-start;
-      flex-grow: 0;
-      margin-left: 85px;
+@media only screen and (max-width: 375px) {
+    .header {
+     padding: 0 15px;
     }
+     
+    header .container{
+      position: relative;
+    }
+
+    .header-navigation{
+      display: none;
+      position: absolute;
+      width: 100%;
+
+    }
+
+
+
 }
